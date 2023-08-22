@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<script src="https://kit.fontawesome.com/1055ca0721.js" crossorigin="anonymous"></script>
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+
+	<link rel="stylesheet" href="style.css">
+
+    <!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<title>TEDU LECTURERS TABLE</title>
+</head>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-6MXMF10FVC"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-6MXMF10FVC');
+</script>
+
+<body>
+
+<div id="table-parent">
+
+
+<input type="text" id="searchbar" onkeyup="myFunction()" placeholder="Search for course codes">
+<input type="text" id="searchbar2" onkeyup="myFunction2()" placeholder="Search for lecturer names">
+<a href="home.html"><button id="home" class="btn btn-secondary"><i class="fa fa-home"></i> Home</button></a>
+<a href="https://www.tedu.edu.tr/akademik-kadro" target="_blank"><button id="lecturers" class="btn btn-secondary"><i class="fa fa-arrow-right"></i> TEDU Academic Staff</button></a>
+<table id = "myTable" class="table table-lg table-bordered table-hover table-striped table-active">
+    <tr>
+        <td>#</td>
+        <th>COURSE </th>
+        <th>&nbspLECTURER</th>
+        <th>TOOK</th>
+        <th>UNSUCCESSFUL</th>
+        <th>GPA</th>
+        <th>SEMESTER</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>Ders İsmi</td>
+        <td>Sencer Yücel</td>
+        <td>3</td>
+        <td>4</td>
+        <td>2.06</td>
+        <td>2018/2019 Fall</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Ders İsmi 2</td>
+        <td>Mısra Nur Özdemir</td>
+        <td>30</td>
+        <td>2</td>
+        <td>2.37</td>
+        <td>2018/2019 Fall</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>Ders İsmi 3</td>
+        <td>Başka Birisi</td>
+        <td>17</td>
+        <td>1</td>
+        <td>2.44</td>
+        <td>2018/2019 Fall</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>Ders İsmi 4</td>
+        <td>Apayrı Başkası</td>
+        <td>12</td>
+        <td>0</td>
+        <td>2.08</td>
+        <td>2018/2019 Fall</td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>Öğretim Ücreti</td>
+        <td>300.000 TL</td>
+        <td>86</td>
+        <td>7</td>
+        <td>2.31</td>
+        <td>2018/2019 Fall</td>
+    </tr>
+    
+</table>
+</div>
+<!-- linking javascript -->
+<script src="searchTable2.js"></script>
+<script src="searchTable.js"></script>
+
+</body>

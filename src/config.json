@@ -1,0 +1,12 @@
+{
+    "use_database":false,
+    "database_configs":{
+        "table_name":"TeduPortal",
+        "host":"localhost",
+        "port":5432,
+        "user":"postgres",
+        "password":"databasePassword"
+    },
+    "years_to_scrape":["2018/2019", "2019/2020", "2020/2021", "2021/2022", "2022/2023"]
+
+}

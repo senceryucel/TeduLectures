@@ -1,0 +1,47 @@
+#table-parent {
+	margin: 2%;
+    padding: 2px;     /* <---- Padding that moved down the hole Table */
+}
+
+
+html *
+{
+   font-size: 1em !important;
+   color: rgb(0, 0, 0) ;
+   font-family: Arial ;
+}
+
+
+#searchbar,#searchbar2{
+	margin-left: 2% ;
+	margin-bottom: 2%;
+	margin-top: 1%;
+	padding:15px;
+	border-radius: 10px;
+}
+
+#home{
+	margin-left: 10%;
+}
+
+input[type=text] {
+	width: 30%;
+	-webkit-transition: width 0.15s ease-in-out;
+	transition: width 0.15s ease-in-out;
+}
+
+/* When the input field gets focus,
+		change its width to 100% */
+input[type=text]:focus {
+	width: 35%;
+}
+
+#list{
+	font-size: 1 em;
+	margin-left: 90px;
+}
+
+.keywords{
+display: list-item;	
+}
+
